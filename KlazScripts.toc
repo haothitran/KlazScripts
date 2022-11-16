@@ -1,0 +1,28 @@
+## Interface: 100002
+## Title: Klaz|cff1994ffScripts|r
+## Author: Klaz
+## Notes-zhCN:
+## Notes-zhTW:
+## Notes-frFR:
+## Notes-deDE:
+## Notes-enGB: Adds quality of life scripts and adjustments to the default user interface.
+## Notes-enUS: Adds quality of life scripts and adjustments to the default user interface
+## Notes-koKR:
+## Notes-ptBR:
+## Notes-ruRU:
+## Notes-esES:
+## Notes-esMX:
+
+Core\Localization.lua
+Core\Functions.lua
+Core\Commands.lua
+Core\Config.lua
+
+Modules\Announcements\Interrupts.lua
+Modules\Announcements\Keystones.lua
+Modules\Announcements\Sound.lua
+Modules\Automation\EasyDelete.lua
+Modules\Automation\MailMoney.lua
+Modules\Automation\NoEscape.lua
+Modules\Automation\Repair.lua
+Modules\Automation\SellJunk.lua
