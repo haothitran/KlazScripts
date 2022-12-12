@@ -26,3 +26,4 @@ Modules\Automation\MailMoney.lua
 Modules\Automation\NoEscape.lua
 Modules\Automation\Repair.lua
 Modules\Automation\SellJunk.lua
+Modules\Maps\WorldMap.lua

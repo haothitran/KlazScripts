@@ -19,6 +19,10 @@ L['AUTO_REPAIR'] = 'Repair cost'
 L['AUTO_REPAIR_GUILD'] = 'Repaired using guild funds'
 L['AUTO_REPAIR_BROKE'] = 'You do not have enough gold to auto repair.'
 
+L['MAP_CURSOR'] = 'Cursor'
+L['MAP_PLAYER'] = 'Player'
+L['MAP_BOUNDS'] = 'Out of bounds!'
+
 local locale = GetLocale()
 if locale == 'en_GB' or locale == 'enUS' then return end -- Great Britain, United States
 

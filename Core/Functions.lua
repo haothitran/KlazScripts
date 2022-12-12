@@ -6,6 +6,8 @@ ns.T = T
 -- # CORE > FUNCTIONS
 --------------------------------------------------------------------------------
 
+T.ClassColor = RAID_CLASS_COLORS[select(2, UnitClass('player'))]
+
 -- ## CHECK CHAT CHANNEL
 --------------------------------------------------------------------------------
 -- check which chat channel is appropriate to use
