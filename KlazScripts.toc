@@ -19,7 +19,6 @@ Core\Commands.lua
 Core\Config.lua
 
 Modules\Announcements\Interrupts.lua
-Modules\Announcements\Keystones.lua
 Modules\Announcements\Sound.lua
 Modules\Automation\EasyDelete.lua
 Modules\Automation\FastLoot.lua
