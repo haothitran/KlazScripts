@@ -22,6 +22,7 @@ Modules\Announcements\Interrupts.lua
 Modules\Announcements\Keystones.lua
 Modules\Announcements\Sound.lua
 Modules\Automation\EasyDelete.lua
+Modules\Automation\FastLoot.lua
 Modules\Automation\MailMoney.lua
 Modules\Automation\NoEscape.lua
 Modules\Automation\Repair.lua
