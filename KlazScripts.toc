@@ -18,6 +18,7 @@ Core\Functions.lua
 Core\Commands.lua
 Core\Config.lua
 
+Modules\Auras\AuraSource.lua
 Modules\Announcements\Interrupts.lua
 Modules\Announcements\Sound.lua
 Modules\Automation\EasyDelete.lua
