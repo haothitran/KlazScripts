@@ -1,6 +1,13 @@
 --------------------------------------------------------------------------------
 -- # MODULES > AUTOMATION > EASY DELETE
 --------------------------------------------------------------------------------
--- change deletion prompt for protected items from typing 'DELETE' to yes/no dialog option
 
-StaticPopupDialogs['DELETE_GOOD_ITEM'] = StaticPopupDialogs['DELETE_ITEM']
+local deleteDialog = StaticPopupDialogs['DELETE_GOOD_ITEM']
+
+if deleteDialog.OnShow then
+  hooksecurefunc(deleteDialog, 'OnShow', function(s)
+    s.editBox:SetText(DELETE_ITEM_CONFIRM_STRING)
+    s.editBox:SetAutoFocus(false)
+    s.editBox:ClearFocus()
+  end)
+end
